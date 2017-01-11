@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KMode</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="DisableSIMLock">Disable SIM Lock</string>
+    <string name="EnableSupl">Enable Supl</string>
+    <string name="Enable">Enable</string>
+    <string name="Disable">Disable</string>
+    <string name="Read">Read</string>
+    <string name="Write">Write</string>
+    <string name="NV">NV</string>
+    <string name="LoadFile">Load File</string>
+
+    <string-array name="kmode_type_list">
+        <item>"請選擇"</item>
+        <item>RIL OEM Hook</item>
+        <item>Network Request</item>
+    </string-array>
+
+    <string-array name="slot_id_list">
+        <item>Slot 0</item>
+        <item>Slot 1</item>
+    </string-array>
+
+    <string-array name="network_request_list">
+        <item>mms</item>
+        <item>supl</item>
+        <item>default</item>
+    </string-array>
+</resources>

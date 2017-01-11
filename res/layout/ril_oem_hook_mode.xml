@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="300dp"
+    android:layout_height="300dp">
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="top">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NvCheckBox"
+            android:text="@+string/NV"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+        />
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:id="@+id/NvEidtText"
+            android:layout_toRightOf="@+id/NvCheckBox"
+            android:layout_alignBottom="@+id/NvCheckBox"
+        />
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:id="@+id/NvEidtValue"
+            android:layout_toRightOf="@+id/NvEidtText"
+            android:layout_alignBottom="@+id/NvCheckBox"
+        />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FileCheckBox"
+            android:text="@+string/LoadFile"
+            android:layout_below="@+id/NvCheckBox"
+            android:layout_alignParentLeft="true"
+        />
+    </RelativeLayout>
+
+</FrameLayout>
